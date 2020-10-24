@@ -1,3 +1,9 @@
+import os
+from flask import Flask, jsonify, request
+from math import sqrt
+app = flask(__name__)
+
+@app_route('/')
 def fibonacci():
     proximo = 1
     anterior = 0
